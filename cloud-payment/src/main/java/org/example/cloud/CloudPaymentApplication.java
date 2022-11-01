@@ -13,7 +13,6 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 public class CloudPaymentApplication {
 
     public static void main(String[] args) {
-        int m = 2;
         SpringApplication.run(CloudPaymentApplication.class, args);
     }
 }
